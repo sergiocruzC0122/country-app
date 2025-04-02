@@ -1,9 +1,9 @@
-import {Component } from '@angular/core';
-import { CountryListComponent } from "../../components/country-list/country-list.component";
+import { Component } from '@angular/core';
+import { CountryListComponent } from '../../components/country-list/country-list.component';
 
 @Component({
-  selector: 'by-rigion-page',
+  selector: 'app-by-region-page',
   imports: [CountryListComponent],
   templateUrl: './by-region-page.component.html',
 })
-export class ByRegionPageComponent { }
+export class ByRegionPageComponent {}
